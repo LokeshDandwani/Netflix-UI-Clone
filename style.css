@@ -13,11 +13,11 @@ body {
   background-position: center center;
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 644px;
   position: relative;
 }
 .main .box {
-  height: 70vh;
+  height: 644px;
   width: 100%;
   opacity: 0.44;
   position: absolute;
@@ -32,7 +32,7 @@ nav {
   margin: auto;
   display: flex;
   align-items: center;
-  height: 62px;
+  height: 100px;
 }
 nav img {
     color: red;
@@ -75,6 +75,8 @@ nav button {
 .separation{
     height: 7px;
     background-color:  rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
 }
 .btn{
   padding: 3px 8px;
@@ -83,6 +85,7 @@ nav button {
   background-color: rgb(234, 225, 225,0.021);
   border: 1px solid white;
   cursor: pointer;
+  border-radius: 4px;
 }
 .btn-red {
     background-color: red;
@@ -172,7 +175,7 @@ section.first>div :nth-child(2){
   filter: invert(1);
 }
 .faqbox{
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
   /* color: white; */
   font-size: 24px;
   display: flex;
